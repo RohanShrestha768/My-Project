@@ -1,3 +1,4 @@
+# Nested loop to create star symbol
 row=int(input("How many rows? :"))
 col=int(input("How many columns? :"))
 col=row+row-5
