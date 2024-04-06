@@ -2,7 +2,7 @@ $(document).ready(function() {
     let display = '';
 
     // Click event handler for all buttons except the equals sign
-    $('.calculator input[type="button"]').not('.equal , .operator').click(function() {
+    $('.calculator input[type="button"]').not('.equal').click(function() {
         let buttonPressed = $(this).val();
         console.log(buttonPressed);
         display += buttonPressed;
